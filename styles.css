@@ -57,8 +57,8 @@ display:inline-flex;
   width: 60px;
   height: 60px;
   margin: 10px;
-  border: 2px solid black;
-  border-radius: 8px;
+
+  border-radius: 50%;
   cursor: pointer;
 }
 #grey {
@@ -72,6 +72,12 @@ display:inline-flex;
 }
 #yellow {
   background-color: yellow;
+}
+#red{
+  background-color: red;
+}
+#aqua{
+  background-color: aqua;
 }
 h1{
   color: brown;

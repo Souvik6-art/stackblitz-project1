@@ -39,7 +39,9 @@ switch (e.target.id) {
   case 'yellow':
     body.style.backgroundColor = e.target.id;
     break;
-
+case 'red':body.style.backgroundColor = e.target.id;
+break;
+case 'aqua':body.style.backgroundColor= e.target.id;
   default:
     
     break;
