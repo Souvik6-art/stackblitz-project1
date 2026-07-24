@@ -17,7 +17,7 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
-  background-color: #eee;
+  background-color: #f7eeee;
 }
 
 nav a {
@@ -39,49 +39,18 @@ nav a[aria-current='page'] {
 main {
   padding: 1rem;
 }
-
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-.canvas {
-  width: 400px;
-  margin: auto;
-  padding: 30px;
-  border: 2px solid #333;
-  border-radius: 10px;
- /* background-color: #d6f0d2;  */
-}
-.button {
-display:inline-flex;
-  width: 60px;
-  height: 60px;
-  margin: 10px;
-
-  border-radius: 50%;
-  cursor: pointer;
-}
-#grey {
-  background-color: grey;
-}
-#green {
-  background-color: green;
-}
-#blue {
-  background-color: blue;
-}
-#yellow {
-  background-color: yellow;
-}
-#red{
-  background-color: red;
-}
-#aqua{
-  background-color: aqua;
-}
-h1{
+div{
+  font-size: small;
   color: brown;
 }
-h2{
-  color: darkblue;
+
+.heading{
+  display: flex;
+  padding-top: 7px;
+  font-variant: normal;
+ 
+  
+  font-size: larger;
+  font-weight: 500;
+
 }
