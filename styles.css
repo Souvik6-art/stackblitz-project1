@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 nav {
@@ -53,4 +53,8 @@ div{
   font-size: larger;
   font-weight: 500;
 
+}
+a{
+  background-color: cadetblue;
+  background
 }
