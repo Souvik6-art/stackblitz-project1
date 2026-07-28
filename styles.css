@@ -48,13 +48,13 @@ div{
   display: flex;
   padding-top: 7px;
   font-variant: normal;
- 
-  
+ color: #481010;
+  background-color: #f8bbbb;
   font-size: larger;
   font-weight: 500;
 
 }
 a{
-  background-color: cadetblue;
+  background-color: rgb(157, 225, 227);
   background
 }
