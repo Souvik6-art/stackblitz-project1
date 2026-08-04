@@ -53,7 +53,7 @@ color :#c8a6a6
                
   }
   
-  .password{
+  #password{
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
