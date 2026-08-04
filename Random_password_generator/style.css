@@ -9,13 +9,13 @@
   }
   
   body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    
     font-weight: lighter;
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #093930, #505fa0);
 color :#c8a6a6 
-
 }
   nav {
     display: flex;
@@ -42,13 +42,31 @@ color :#c8a6a6
     color: #000;
     background-color: #d4d4d4;
   }
+  h1{
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+               
+  }
+  
   .password{
-    display:flex;
-    height: 40px;
-    width: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
     justify-content: center;
     align-items: center;
-  color: bisque;
-  background-color: aqua;
-  border-radius: 30px;
+    height: 40px;
+    width: 250px;
+        color: bisque;
+        background: linear-gradient(135deg, #505fa0,   #093930);
+    border-radius: 30px;
   }
+ button{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #aaa;
+  background: linear-gradient(135deg,#093930,#505fa0);
+  border-radius: 30px;
+ }
